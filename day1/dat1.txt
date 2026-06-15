@@ -1,0 +1,4 @@
+# open terminal : ctrl + `
+
+#run program : python path_of_file
+
