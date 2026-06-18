@@ -40,4 +40,10 @@ print(my_dict)
 
 my_tuple=("Apple","Banana","Carrot","Mango","Pineapple")
 print(my_tuple[1])
-my_tuple[1]="Cat"
+
+
+#backward indexing if you input a negative number it will start indexing from behind
+
+a="Hello"
+print(a[-1])
+print(a[-2])
