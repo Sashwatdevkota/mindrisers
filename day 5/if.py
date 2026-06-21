@@ -98,4 +98,33 @@ else:
   print("failed")
   
   
-  
+# define a dictionary username as key and password as value
+# get the username and password from the user
+# check if the username exists in the dictioney
+# if yes: check if the password is correct(if yes: print Valid or Verified user, if no: print password incorrect)
+# if no: print the statement(eg: Invalid username)
+
+my_dict={
+  "Ram":"rampass",
+  "Sita":"sitapass",
+  "Hari":"haripass",
+  "Gita":"gitapass",
+}
+
+username=input("Enter your username")
+password=input("Enter your password")
+
+if username in my_dict:
+  if password==my_dict[username]:
+    print("correct password and username")
+  else:
+    print("incorrect password for username")
+else:
+  print("invalid username")
+
+
+
+
+
+
+
