@@ -17,7 +17,7 @@
 #   else:
 #     print(f"{num2} is greater than {num1}: ")
   
-#   choice=input("Do you want to continue again (y/n)")
+#   choice=input("Do you want to continue again (y/n): ")
 #   if choice == "n": break
   
 
@@ -45,7 +45,7 @@ while (True):
   else:
     print("Please use the selected operator only")  
     
-  choice=input("Do you want to continue again (y/n)")
+  choice=input("Do you want to continue again (y/n): ")
   if choice == "n": break
 
 
