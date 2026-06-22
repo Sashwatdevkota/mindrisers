@@ -6,6 +6,21 @@
 # if a and b are equal
 # ask if they want to continue: yes: interate the code, no: terminate the loop
 
+
+while (True):
+  num1=input("Enter first number")
+  num2=input("Enter second number")
+  if num1>num2:
+    print(f"{num1} is greater than {num2}: ")
+  elif num1==num2:
+    print(f"both numbers {num1}, {num2} are equal: ")
+  else:
+    print(f"{num2} is greater than {num1}: ")
+  
+  choice=input("Do you want to continue again (y/n)")
+  if choice == "n": break
+  
+
 # simple calculator
 # get two numbers from user and a operator(+,-,*,/)
 # if the operator is +, print the sum of two number
