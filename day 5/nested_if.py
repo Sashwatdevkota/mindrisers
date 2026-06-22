@@ -60,7 +60,7 @@ else:
 #     if not yes or no: a statement for the choice(optional)
 
 age = int(input("Enter your age"))
-if age >0 and age<100:
+if age >0 or age<100:
   print("enter a valid age")
 elif age < 18:
   print("You are not eligible for license")
