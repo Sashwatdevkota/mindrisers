@@ -16,10 +16,10 @@
 #     print(f"both numbers {num1}, {num2} are equal: ")
 #   else:
 #     print(f"{num2} is greater than {num1}: ")
-  
+
 #   choice=input("Do you want to continue again (y/n): ")
 #   if choice == "n": break
-  
+
 
 # simple calculator
 # get two numbers from user and a operator(+,-,*,/)
@@ -28,26 +28,26 @@
 # if the operator is *, print the multiple of two number
 # if the operator is /, print the division of two number
 
-while (True):
-  
-  num1=int(input("Enter your first number: "))
-  operator=input("Enter an operator(+,*,/,-)")
-  num2=int(input("Enter your second number: "))
+# while True:
 
-  if operator == "+" :
-    print(num1+num2)
-  elif operator == "-" :
-    print(num1-num2)
-  elif operator == "*" :
-    print(num1*num2)
-  elif operator == "/" :
-    print(num1/num2)
-  else:
-    print("Please use the selected operator only")  
-    
-  choice=input("Do you want to continue again (y/n): ")
-  if choice == "n": break
+#     num1 = int(input("Enter your first number: "))
+#     operator = input("Enter an operator(+,*,/,-)")
+#     num2 = int(input("Enter your second number: "))
 
+#     if operator == "+":
+#         print(num1 + num2)
+#     elif operator == "-":
+#         print(num1 - num2)
+#     elif operator == "*":
+#         print(num1 * num2)
+#     elif operator == "/":
+#         print(num1 / num2)
+#     else:
+#         print("Please use the selected operator only")
+
+#     choice = input("Do you want to continue again (y/n): ")
+#     if choice == "n":
+#         break
 
 
 # get user's exam marks
@@ -60,6 +60,30 @@ while (True):
 # if the mark is greater than 40 and less than 50 , print a statement
 # if the mark is less than 40, print a statment
 # ask if they want to continue: yes: interate the code, no: terminate the loop
+
+while True:
+
+    marks = float(input("Enter your grade"))
+    if marks > 100 or marks < 0:
+        print("Please enter a valid mark")
+    elif marks > 90 and marks < 100:
+        print("you got A+")
+    elif marks > 80 and marks <= 90:
+        print("you got A")
+    elif marks > 70 and marks <= 80:
+        print("you got B+")
+    elif marks > 60 and marks <= 70:
+        print("you got B")
+    elif marks > 50 and marks <= 60:
+        print("you got C+")
+    elif marks > 40 and marks < 50:
+        print("you got C")
+    else:
+        print("failed")
+
+    choice = input("Do you want to continue again (y/n): ")
+    if choice == "n":
+        break
 
 
 # define a dictionary username as key and password as value
