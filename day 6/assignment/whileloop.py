@@ -8,8 +8,8 @@
 
 
 # while (True):
-#   num1=input("Enter first number")
-#   num2=input("Enter second number")
+#   num1=int(input("Enter first number"))
+#   num2=int(input("Enter second number"))
 #   if num1>num2:
 #     print(f"{num1} is greater than {num2}: ")
 #   elif num1==num2:
@@ -76,7 +76,7 @@
 #         print("you got B")
 #     elif marks > 50 and marks <= 60:
 #         print("you got C+")
-#     elif marks > 40 and marks < 50:
+#     elif marks > 40 and marks <= 50:
 #         print("you got C")
 #     else:
 #         print("failed")
