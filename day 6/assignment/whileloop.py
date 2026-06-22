@@ -61,29 +61,29 @@
 # if the mark is less than 40, print a statment
 # ask if they want to continue: yes: interate the code, no: terminate the loop
 
-while True:
+# while True:
 
-    marks = float(input("Enter your grade"))
-    if marks > 100 or marks < 0:
-        print("Please enter a valid mark")
-    elif marks > 90 and marks < 100:
-        print("you got A+")
-    elif marks > 80 and marks <= 90:
-        print("you got A")
-    elif marks > 70 and marks <= 80:
-        print("you got B+")
-    elif marks > 60 and marks <= 70:
-        print("you got B")
-    elif marks > 50 and marks <= 60:
-        print("you got C+")
-    elif marks > 40 and marks < 50:
-        print("you got C")
-    else:
-        print("failed")
+#     marks = float(input("Enter your grade"))
+#     if marks > 100 or marks < 0:
+#         print("Please enter a valid mark")
+#     elif marks > 90 and marks < 100:
+#         print("you got A+")
+#     elif marks > 80 and marks <= 90:
+#         print("you got A")
+#     elif marks > 70 and marks <= 80:
+#         print("you got B+")
+#     elif marks > 60 and marks <= 70:
+#         print("you got B")
+#     elif marks > 50 and marks <= 60:
+#         print("you got C+")
+#     elif marks > 40 and marks < 50:
+#         print("you got C")
+#     else:
+#         print("failed")
 
-    choice = input("Do you want to continue again (y/n): ")
-    if choice == "n":
-        break
+#     choice = input("Do you want to continue again (y/n): ")
+#     if choice == "n":
+#         break
 
 
 # define a dictionary username as key and password as value
@@ -92,3 +92,29 @@ while True:
 # if yes: check if the password is correct(if yes: print Valid or Verified user, if no: print password incorrect)
 # if no: print the statement(eg: Invalid username)
 # ask if they want to continue: yes: interate the code, no: terminate the loop
+
+
+while True:
+
+    my_dict = {
+        "Ram": "rampass",
+        "Sita": "sitapass",
+        "Hari": "haripass",
+        "Gita": "gitapass",
+    }
+
+    username = input("Enter your username")
+    password = input("Enter your password")
+
+    if username in my_dict:
+        if password == my_dict[username]:
+            print("correct password and username")
+        else:
+            print("incorrect password for username")
+    else:
+        print("invalid username")
+
+    choice = input("Do you want to continue again (y/n): ")
+    if choice == "n":
+        break
+
