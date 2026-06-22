@@ -60,15 +60,24 @@ else:
 #     if not yes or no: a statement for the choice(optional)
 
 age = int(input("Enter your age"))
-if age < 18:
+if age >0 and age<100:
+  print("enter a valid age")
+elif age < 18:
   print("You are not eligible for license")
   print("Would you like to create one?(y/n)")
   choice=input()
   if choice=="y":
     print("Please wait until you are 18 to apply for one")
   elif choice=="n":
-    print('Thank you (Age<18 elif choice)')
+    print('Thank you! (Age<18 elif choice)')
   else:
-    print("Invlaid choice (For age less than 18)")
+    print("Invalid choice (For age less than 18)")
 else:
-      print("You are eligible to vote")
+      print("You are to create a license would you like to create one?")
+      choice=input()
+      if choice =="y":
+        print("go to www.license.com")
+      elif choice=="n":
+        print("please consider creating one")
+      else:
+        print("invalid choice")

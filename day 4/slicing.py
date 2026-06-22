@@ -77,4 +77,3 @@ fruits = [
 print(fruits[-4:-2:])
 # print only odd indexing
 print(fruits[1::2])
-
