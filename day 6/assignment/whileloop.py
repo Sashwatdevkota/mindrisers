@@ -7,18 +7,18 @@
 # ask if they want to continue: yes: interate the code, no: terminate the loop
 
 
-while (True):
-  num1=input("Enter first number")
-  num2=input("Enter second number")
-  if num1>num2:
-    print(f"{num1} is greater than {num2}: ")
-  elif num1==num2:
-    print(f"both numbers {num1}, {num2} are equal: ")
-  else:
-    print(f"{num2} is greater than {num1}: ")
+# while (True):
+#   num1=input("Enter first number")
+#   num2=input("Enter second number")
+#   if num1>num2:
+#     print(f"{num1} is greater than {num2}: ")
+#   elif num1==num2:
+#     print(f"both numbers {num1}, {num2} are equal: ")
+#   else:
+#     print(f"{num2} is greater than {num1}: ")
   
-  choice=input("Do you want to continue again (y/n)")
-  if choice == "n": break
+#   choice=input("Do you want to continue again (y/n)")
+#   if choice == "n": break
   
 
 # simple calculator
@@ -27,7 +27,27 @@ while (True):
 # if the operator is -, print the subtraction of two number
 # if the operator is *, print the multiple of two number
 # if the operator is /, print the division of two number
-# ask if they want to continue: yes: interate the code, no: terminate the loop
+
+while (True):
+  
+  num1=int(input("Enter your first number: "))
+  operator=input("Enter an operator(+,*,/,-)")
+  num2=int(input("Enter your second number: "))
+
+  if operator == "+" :
+    print(num1+num2)
+  elif operator == "-" :
+    print(num1-num2)
+  elif operator == "*" :
+    print(num1*num2)
+  elif operator == "/" :
+    print(num1/num2)
+  else:
+    print("Please use the selected operator only")  
+    
+  choice=input("Do you want to continue again (y/n)")
+  if choice == "n": break
+
 
 
 # get user's exam marks
