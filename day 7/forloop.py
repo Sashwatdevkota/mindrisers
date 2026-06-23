@@ -31,3 +31,13 @@ infos=[{"name":"ram","age":20,"contact":1},{"name":"ram","age":21,"contact":4},{
 
 for info in infos:
   print(f"Hello my name is {info["name"]}, my age is {info["age"]}, my contact no is {info["contact"]}")
+
+string = "Python Basics"
+# print out each characters
+
+for c in string:
+  print (c)
+
+
+
+# print the sum of data present in variable a
