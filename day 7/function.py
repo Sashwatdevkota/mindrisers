@@ -14,3 +14,5 @@ def addition():  # function define
 
 
 addition()  # function call
+
+# do assignments
