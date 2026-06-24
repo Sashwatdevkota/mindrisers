@@ -18,7 +18,7 @@ b="I am ( learning)"
 
 print(b[5])
 
-fruits = ["Apple","Banana","Manago","Orange","Grapes","Pineapple","Papaya","Watermelon"]
+fruits = ["Apple","Banana","Mango","Orange","Grapes","Pineapple","Papaya","Watermelon"]
 #print out orange from list of fruits
 
 print(fruits[3])

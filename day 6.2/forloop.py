@@ -80,3 +80,7 @@ for num in x:
 print("greatest is", max)
 print("smallest is", min)
 # find the smallest number and print
+
+
+for i in range(2,10,2):
+    print (i)
