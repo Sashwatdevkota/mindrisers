@@ -1,13 +1,13 @@
 # # for loop:
 # # iterable: sequential data(group data and string data)
-# # iteration: process of moving from first index of data to last index in the interable
-# # iterator: variable using to perform iteraation in iterable
+# # iteration: process of moving from first index of data to last index in the iterable
+# # iterator: variable using to perform iteration in iterable
 
 # # Syntax:
 
 # # for iterator in iterable:
-# # statment1
-# # statment2
+# # statement1
+# # statement2
 
 # a = [1, 2, 3, 4, 5]
 
