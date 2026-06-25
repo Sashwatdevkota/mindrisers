@@ -1,6 +1,5 @@
 # calculator:
 
-
 def calculator(num1, num2, operator):
     if operator == "+":
         print(num1 + num2)
@@ -11,7 +10,7 @@ def calculator(num1, num2, operator):
     elif operator == "/":
         print(num1 / num2)
     else:
-        print(f"Please use the selected operator only '{operator}' is invalid ")
+        print(f"Please use the given operator only '{operator}' is invalid ")
 
 
 while True:
