@@ -7,13 +7,10 @@
 # ask if they want to continue: yes: iterate the code, no: terminate the loop
 
 while True:
-  num1=int(input(""))
+    num1 = int(input(""))
 
 
-
-
-
-
+# DO ASSIGNMENTS
 
 
 # simple calculator
