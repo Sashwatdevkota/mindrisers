@@ -1,25 +1,23 @@
-# oop: object oriented programming
-# class : structures, blueprint
-# object : data created using class
-
-
-# syntax:
-class class_name:
-    # variables are called attributes
-    # functions are called methods
-    var = 1
-
-
 class Person:
-    name = "Ram"
-    age = 35
-    address = "KTM"
-    gender = "male"
+    name = None
+    age = None
+    address = None
+    gender = None
 
+    def get_intro(self, name, age, address, gender):
 
-r1 = Person()  # r1 is object, Person() is class call
+        self.name = name
+        self.age = age
+        self.address = address
+        self.gender = gender
 
-print(r1.name)
+    def intro(self):
+        print(f"""
+            Name: {self.name}
+            Age: {self.age}
+            Address: {self.address}
+            Gender: {self.gender}
+            """)
 
 
 sita = Person()
@@ -29,10 +27,11 @@ sita.age = "30"
 sita.address = "BKT"
 sita.gender = "female"
 
-# sita.abc = "ABC" #adding separate attribute to the object sita
+sita.intro()
 
-print(sita.name)
-print(sita.age)
-print(sita.address)
-print(sita.gender)
-print(sita.abc)
+
+ram = Person()
+
+ram.get_intro("Ram", "25", "KTM", "Male")
+
+ram.intro()
