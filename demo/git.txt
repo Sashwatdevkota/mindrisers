@@ -15,3 +15,10 @@ git add . [# add multiple files]
 
 #commit files to git
 git commit -m "message"
+
+# check the status of this repository
+git status
+
+
+#see previous commits
+git log
