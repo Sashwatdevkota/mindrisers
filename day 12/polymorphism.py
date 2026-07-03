@@ -1,6 +1,5 @@
 # polymorphism: poly: multiple
 
-
 a = 1
 b = 1
 
@@ -33,3 +32,7 @@ f1 = Fish()
 d1.move()
 b1.move()
 f1.move()
+
+# abstraction: data hiding(hide complex internal details/events from users
+# ATM: internal validation are hidden from user
+# Bike Car: internal engine
