@@ -1,0 +1,17 @@
+Git cycle
+
+git init to initialize a git repository 
+U is untracked it shows files that are untracked
+
+git add <filename> or git add .
+
+
+# initialize local git repository
+git init
+
+# add file to  the git
+git add files_name [# add single file]
+git add . [# add multiple files] 
+
+#commit files to git
+git commit -m "message"
