@@ -22,3 +22,27 @@ git status
 
 #see previous commits
 git log
+
+#branches
+
+git branch
+
+# create new branch
+git branch <newbranchname>
+
+where a new branch is create the old branch whose
+initializes the new branch copies all the content
+from the old branch
+
+#to switch branch use 
+
+git checkout <branchname>
+git switch <branchname>
+
+#to rename branch
+git branch -m"new_branch_name"
+
+#merge branch
+git merge <branchname>
+
+
