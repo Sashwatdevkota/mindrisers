@@ -1,50 +1,48 @@
-Git cycle
-
-git init to initialize a git repository 
-U is untracked it shows files that are untracked
-
-git add <filename> or git add .
-
-
-# initialize local git repository
+# GIT: source control, tracks file and folder, enable collaboration(branching,merge)
+# compare the previous state and current state of the folder
+# initialize local git repo
 git init
 
-# add file to  the git
-git add files_name [# add single file]
-git add . [# add multiple files] 
+# add file to the git
+git add file_name          [#add single file]
+git add .                  [# add multiple files]
 
-#commit files to git
+# commit file to git
 git commit -m "message"
 
-# check the status of this repository
+# status check of this repo
 git status
 
-
-#see previous commits
+# see previous commits
 git log
 
-#branches
+# define user identity
+git config --global user.name "your_username"
+git config --global user.email your_email
 
-git branch
+# Branch:
+#check branchs
+git Branch
 
 # create new branch
-git branch <newbranchname>
+git branch branch_name
 
-where a new branch is create the old branch whose
-initializes the new branch copies all the content
-from the old branch
+# rename branch name
+git branch -M "new_branch_name"
 
-#to switch branch use 
+# merge branch
+git merge branch_name
 
-git checkout <branchname>
-git switch <branchname>
+# switch branch
+git switch branch_name
+git checkout branch_name
 
-#to rename branch
-git branch -m"new_branch_name"
-
-#merge branch
-git merge <branchname>
+# merge the files
+git merge branch_name
 
 
-git 2
-git 3
+
+# todo:
+# create new file 
+# add and commit the file to git
+# edit the file and add, commit to git
