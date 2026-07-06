@@ -45,4 +45,6 @@ git merge branch_name
 # todo:
 # create new file 
 # add and commit the file to git
-# edit the file and add, commit to git
+# edit the file and add, commit to git1l
+
+git 1
