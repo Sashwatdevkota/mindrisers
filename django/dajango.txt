@@ -32,3 +32,27 @@ pip install Django
 
 -project: configuration : settings
 -app(application): functionalities : hosts, notification, payment
+ 
+ #To create a project
+
+ django-admin start project <projectname> . #here "." is optional and it changes the folder structure
+
+ without .
+
+ project:
+  -project
+  -manage.py
+
+with.
+
+project
+manage.py
+
+
+use: 
+  python manage.py 
+  to see every function you can do
+
+use: 
+  python manage.py runserver 
+   to see run server
